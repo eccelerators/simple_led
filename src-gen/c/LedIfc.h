@@ -29,8 +29,8 @@
 #define OnOffMask 0x00000001
 #define OnOffPosition 0
 #define OnOffWidth 1
-#define OffMVal 0x00000000
-#define OnMVal 0x00000001
+#define LedOffMVal 0x00000000
+#define LedOnMVal 0x00000001
 #define OnOffBusResetMRstVal 0x00000000
 
 #endif

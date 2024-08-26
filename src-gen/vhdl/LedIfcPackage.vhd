@@ -75,7 +75,7 @@ package LedIfcPackage is
 	constant ONOFF_POSITION : integer := 0;
 	constant ONOFF_WIDTH : integer := 1;
 	constant ONOFF_MASK : std_logic_vector(31 downto 0) := x"00000001";
-	constant OFF : std_logic := '0';
-	constant ON : std_logic := '1';
+	constant LEDOFF : std_logic := '0';
+	constant LEDON : std_logic := '1';
 	
 end;

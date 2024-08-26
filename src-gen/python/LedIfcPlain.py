@@ -30,6 +30,6 @@ class LedBlk:
     OnOffMask = 0x00000001
     OnOffPosition = 0
     OnOffWidth = 1
-    OffMVal = 0x00000000
-    OnMVal = 0x00000001
+    LedOffMVal = 0x00000000
+    LedOnMVal = 0x00000001
     OnOffBusResetMRstVal = 0x00000000

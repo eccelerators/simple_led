@@ -120,7 +120,7 @@ begin
 		if (Rst = '1') then
 			PreReadAckCtrReg <= '0';
 			PreWriteAckCtrReg <= '0';
-			WRegOnOff <= OFF;
+			WRegOnOff <= LEDOFF;
 		elsif rising_edge(Clk) then
 			PreWriteAckCtrReg <= WriteDiffCtrReg;
 			PreReadAckCtrReg <= ReadDiffCtrReg;

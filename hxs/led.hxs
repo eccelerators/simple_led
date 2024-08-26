@@ -54,14 +54,14 @@ namespace Eccelerators.Demo
             enum OnOff
             {
                 Values = [
-                    Off,
-                    On
+                    LedOff,
+                    LedOn
                 ];
-                value Off
+                value LedOff
                 {
                     Value = 0;
                 }
-                value On
+                value LedOn
                 {
                     Value = 1;
                 }
